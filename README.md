@@ -13,7 +13,7 @@ Classifying the land use of a given satellite image
   
   
   # DATASET USED
- For this project, I used open source EuroSAT Sentinel-2 satellite images from the German Research Center for Artificial Intelligence, which can be downloaded locally link. The dataset consists of 27,000 labeled images of 10 different land use classes:
+ For this project, I used open source EuroSAT Sentinel-2 satellite images from the German Research Center for Artificial Intelligence, which can be downloaded locally [link](http://madm.dfki.de/downloads). The dataset consists of 27,000 labeled images of 10 different land use classes:
 
 - Annual Crop
 - Forest
@@ -28,13 +28,18 @@ Classifying the land use of a given satellite image
 
 Each multispectral image consists of 13 different color bands that represent different wavelengths of light/color and different resolutions. These different light bands help distinguish parts of the landscape that reflect certain types of light in particular ways. Since most images don’t include special bands like Vegetation Red Edge, Coastal aerosol, or SWIR, for this project I chose to only use the red, green, and blue bands in an effort to make my model generalizable to most images.
 
+![Sentinel-2Poster](https://user-images.githubusercontent.com/78519911/135378729-2eec9673-714d-4584-be69-eb3f789fa13f.jpg)
 ![HERO_Hyperspectral_UASVision](https://user-images.githubusercontent.com/78519911/135377669-edcafaa5-32ab-4501-adb1-d33af73680e1.jpg)
 
 
+
 # Pipeline of the Project 
+1. Data preparation
+2. Exploratory data analysis
+3. Convolutional neural network model
+4. CNN with model tuning
 
+# Predicted Output.
 
-# Architechture 
-# Predicted Output
 # Reference 
 
