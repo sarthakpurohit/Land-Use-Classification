@@ -1,5 +1,10 @@
 # Land-Use-Classification
-Classifying the land use of a given satellite image
+
+Classifying the land use of a given satellite image.
+
+Land-use classification schemes typically address both land use and land cover. A major land-use classification system developed by the United States Geological Survey (USGS) has multiple levels of classification. The categories within these levels are arranged in a nested hierarchy. The most general or aggregated classification (level I) includes broad land-use categories, such as ‘agriculture’ or ‘urban and built-up’ land . This level of classification is commonly used for regional and other large-scale applications. Within each level I class are a number of more detailed (level II) land-use and land-cover classes.
+
+
 # PROBLEM STATEMENT
    Satellite imagery can help us find solutions to the growing number of environmental problems that we face today. It allows us to not only get a bird’s eye view of what’s around us, but also uncovers parts of the world that are rarely seen. Tapping into the potential of categorizing land cover and land use around the world means that humans can more efficiently make use of natural resources, hopefully lowering cases of waste and deprivation. But despite its potential to be incredibly useful, satellite data is massive and confusing, and making sense of it requires complex analysis.
   
@@ -29,7 +34,7 @@ Classifying the land use of a given satellite image
 Each multispectral image consists of 13 different color bands that represent different wavelengths of light/color and different resolutions. These different light bands help distinguish parts of the landscape that reflect certain types of light in particular ways. Since most images don’t include special bands like Vegetation Red Edge, Coastal aerosol, or SWIR, for this project I chose to only use the red, green, and blue bands in an effort to make my model generalizable to most images.
 
 ![Sentinel-2Poster](https://user-images.githubusercontent.com/78519911/135378729-2eec9673-714d-4584-be69-eb3f789fa13f.jpg)
-![HERO_Hyperspectral_UASVision](https://user-images.githubusercontent.com/78519911/135377669-edcafaa5-32ab-4501-adb1-d33af73680e1.jpg)
+
 
 
 
@@ -39,7 +44,14 @@ Each multispectral image consists of 13 different color bands that represent dif
 3. Convolutional neural network model
 4. CNN with model tuning
 
+# Architecture
+
+![41598_2020_74215_Fig1_HTML](https://user-images.githubusercontent.com/78519911/135385106-8290f9c2-c058-4957-bc29-79146a0b3ccb.jpg)
+
+
 # Predicted Output.
+
+![HERO_Hyperspectral_UASVision](https://user-images.githubusercontent.com/78519911/135377669-edcafaa5-32ab-4501-adb1-d33af73680e1.jpg)
 
 # Reference 
 
