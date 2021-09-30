@@ -51,7 +51,5 @@ Each multispectral image consists of 13 different color bands that represent dif
 
 # Predicted Output.
 
-![HERO_Hyperspectral_UASVision](https://user-images.githubusercontent.com/78519911/135377669-edcafaa5-32ab-4501-adb1-d33af73680e1.jpg)
-
 # Reference 
 
