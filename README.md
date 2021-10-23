@@ -21,7 +21,7 @@ Land-use classification schemes typically address both land use and land cover. 
    ```
    git clone https://github.com/sarthakpurohit/Land-Use-Classification
    cd Land-Use-Classification
-   '''
+   ```
    
    For Anaconda users:
    
