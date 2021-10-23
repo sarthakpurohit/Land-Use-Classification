@@ -17,6 +17,12 @@ Land-use classification schemes typically address both land use and land cover. 
   Land use classification is important for identifying the parts of an image to which certain analyses are applied. For example, if the company has different crop stress algorithms for fields that are next to urban areas versus fields that are next to rivers, this project would help them to automate the process of applying these specialized algorithms and more effectively solve environmental problems.
   
   # Installation
+   
+   ```
+   git clone https://github.com/sarthakpurohit/Land-Use-Classification
+   cd Land-Use-Classification
+   '''
+   
    For Anaconda users:
    
    Create virtual environment named `landuse`
