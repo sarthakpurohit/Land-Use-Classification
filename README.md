@@ -16,6 +16,23 @@ Land-use classification schemes typically address both land use and land cover. 
   
   Land use classification is important for identifying the parts of an image to which certain analyses are applied. For example, if the company has different crop stress algorithms for fields that are next to urban areas versus fields that are next to rivers, this project would help them to automate the process of applying these specialized algorithms and more effectively solve environmental problems.
   
+  # Installation
+   For Anaconda users:
+   
+   Create virtual environment named `landuse`
+   ```
+   conda create -n landuse python=3.8 
+   ```
+   
+   Activate landuse environment
+   ```
+   conda activate landuse
+   ```
+   
+   Install required packages and dependencies of project from environment.yml
+   ```
+   conda env update --file environment.yml 
+   ```
   
   # Dataset Used
  For this project, I used open source EuroSAT Sentinel-2 satellite images from the German Research Center for Artificial Intelligence, which can be downloaded locally [link](http://madm.dfki.de/downloads). The dataset consists of 27,000 labeled images of 10 different land use classes:
