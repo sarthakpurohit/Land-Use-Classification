@@ -50,6 +50,7 @@ Land-use classification schemes typically address both land use and land cover. 
    conda install -c conda-forge jupyterlab
    ```
    
+   Install streamlit
    ```
    conda install -c conda-forge streamlit
    ```
