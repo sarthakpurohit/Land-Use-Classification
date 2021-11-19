@@ -27,7 +27,7 @@ Land-use classification schemes typically address both land use and land cover. 
    
    Create virtual environment named `landuse`
    ```
-   conda create -n landuse python=3.8 
+   conda create -n landuse
    ```
    
    Activate landuse environment
@@ -35,10 +35,25 @@ Land-use classification schemes typically address both land use and land cover. 
    conda activate landuse
    ```
    
-   Install required packages and dependencies of project from environment.yml
+   Install pytorch
    ```
-   conda env update --file environment.yml 
+   conda install pytorch torchvision torchaudio cpuonly -c pytorch
    ```
+   
+   Install matplotlib
+   ```
+   conda install matplotlib
+   ```
+   
+   Install jupyter notebook
+   ```
+   conda install -c conda-forge jupyterlab
+   ```
+   
+   ```
+   conda install -c conda-forge streamlit
+   ```
+  
   
   # Dataset Used 📊📁
  For this project, I used open source EuroSAT Sentinel-2 satellite images from the German Research Center for Artificial Intelligence, which can be downloaded locally [link](http://madm.dfki.de/downloads). The dataset consists of 27,000 labeled images of 10 different land use classes:
