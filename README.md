@@ -55,6 +55,10 @@ Land-use classification schemes typically address both land use and land cover. 
    conda install -c conda-forge streamlit
    ```
   
+  To run WebApp
+  ```
+  streamlit run datascienceUI.py
+  ```
   
   # Dataset Used 📊📁
  For this project, I used open source EuroSAT Sentinel-2 satellite images from the German Research Center for Artificial Intelligence, which can be downloaded locally [link](http://madm.dfki.de/downloads). The dataset consists of 27,000 labeled images of 10 different land use classes:
