@@ -75,7 +75,8 @@ Land-use classification schemes typically address both land use and land cover. 
 - Sea / Lake
 
 
-![image](https://user-images.githubusercontent.com/78519911/138552682-df140d3e-438c-49cc-9246-e82f17500278.png)
+
+![138552682-df140d3e-438c-49cc-9246-e82f17500278](https://user-images.githubusercontent.com/78519911/142714436-9c29af14-fd25-49c1-af63-0e934a1e99dd.png)
 
 
 
@@ -86,7 +87,7 @@ Land-use classification schemes typically address both land use and land cover. 
 
 Each multispectral image consists of 13 different color bands that represent different wavelengths of light/color and different resolutions. These different light bands help distinguish parts of the landscape that reflect certain types of light in particular ways. Since most images don’t include special bands like Vegetation Red Edge, Coastal aerosol, or SWIR, for this project I chose to only use the red, green, and blue bands in an effort to make my model generalizable to most images.
 
-![Sentinel-2Poster](https://user-images.githubusercontent.com/78519911/135378729-2eec9673-714d-4584-be69-eb3f789fa13f.jpg)
+![135378729-2eec9673-714d-4584-be69-eb3f789fa13f](https://user-images.githubusercontent.com/78519911/142714451-dd256dd2-2804-4467-9230-f88534a44710.jpg)
 
 
 
